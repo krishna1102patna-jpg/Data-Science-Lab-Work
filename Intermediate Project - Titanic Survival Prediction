@@ -1,0 +1,57 @@
+Project Title
+
+Titanic Survival Prediction Using Machine Learning
+
+Description
+
+The objective of this project is to analyze the Titanic passenger dataset and build machine learning models to predict whether a passenger survived or not. The project involves data preprocessing, exploratory data analysis (EDA), visualization, and model building using classification algorithms. By applying machine learning techniques, the project aims to identify important factors that influenced survival during the Titanic disaster and evaluate the performance of different models.
+
+Dataset
+Source: Kaggle Titanic Dataset
+https://www.kaggle.com/competitions/titanic/data
+Description:
+The dataset contains information about passengers aboard the Titanic, including demographic and travel-related details. It consists of features such as passenger class, gender, age, fare, number of family members onboard, and embarkation port. The dataset includes a target variable called Survived, which indicates whether a passenger survived (1) or not (0). This structured dataset is widely used for classification problems in machine learning.
+Steps Performed
+Data Cleaning
+Handled missing values in columns like Age, Cabin, and Embarked
+Removed irrelevant features such as Name, Ticket, and Cabin (if needed)
+Converted categorical variables into numerical format using encoding
+Exploratory Data Analysis (EDA)
+Examined dataset structure and data types
+Identified missing values and outliers
+Analyzed relationships between features and survival
+Visualization
+Created histograms to understand data distribution
+Used bar charts to compare survival rates across categories
+Generated box plots to detect outliers
+Plotted correlation heatmap to understand feature relationships
+Model Building
+Implemented K-Nearest Neighbors (KNN)
+Applied Logistic Regression
+Built Decision Tree Classifier
+Trained models and evaluated performance using accuracy
+Results
+Key Findings:
+Female passengers had a higher survival rate than males
+Passengers in higher classes (1st class) had better survival chances
+Age and fare also influenced survival probability
+Family size had some impact on survival
+Metrics:
+Accuracy was used as the primary evaluation metric
+Logistic Regression and Decision Tree showed good performance
+KNN performance depended on the value of K
+Tools Used
+Programming Language: Python
+Libraries:
+NumPy
+Pandas
+Matplotlib
+Seaborn
+Scikit-learn
+Conclusion
+
+This project demonstrated how machine learning techniques can be applied to predict outcomes using real-world data. By performing exploratory data analysis and applying classification algorithms, meaningful insights were obtained about the factors influencing survival in the Titanic dataset. The comparison of different models helped in understanding their strengths and limitations. Overall, the project highlights the importance of data preprocessing, feature selection, and model evaluation in machine learning workflows.
+
+Author
+
+Krishna Singh
