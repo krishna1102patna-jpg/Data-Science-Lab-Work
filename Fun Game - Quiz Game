@@ -1,0 +1,60 @@
+# Project Title
+
+Quiz Game using Python
+
+## Description
+
+This project is a simple interactive quiz game developed using Python. The objective of the project is to test the user's general knowledge by asking multiple-choice questions and providing a score based on correct answers. The game is designed to be fun, user-friendly, and educational.
+
+## Dataset
+
+* Source: Self-created / Internet (General Knowledge Questions)
+* Description of data: The dataset consists of a list of questions along with multiple-choice options and correct answers. Each question is stored in a structured format (dictionary/list).
+
+## Steps Performed
+
+1. Data Cleaning
+
+   * Removed duplicate or unclear questions
+   * Ensured all questions have correct answer options
+
+2. Exploratory Data Analysis
+
+   * Checked distribution of questions by category (optional)
+   * Verified difficulty levels
+
+3. Visualization
+
+   * Displayed results such as score summary
+   * (Optional) Used simple bar chart for correct vs incorrect answers
+
+4. Model Building (if applicable)
+
+   * Not applicable (rule-based logic used instead of ML model)
+
+## Results
+
+* Key findings:
+
+  * Users can test their knowledge interactively
+  * The scoring system motivates engagement
+* Metrics:
+
+  * Total score
+  * Accuracy percentage
+
+## Tools Used
+
+* Python
+* Libraries:
+
+  * Random
+  * (Optional) Matplotlib for visualization
+
+## Conclusion
+
+The quiz game successfully provides an interactive and engaging way to test knowledge. It demonstrates basic Python concepts such as loops, conditionals, and data structures. The project can be further enhanced by adding GUI, timers, or difficulty levels.
+
+## Author
+
+Krishna Singh
